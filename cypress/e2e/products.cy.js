@@ -35,7 +35,7 @@ describe('Products and Cart Flow', () => {
     })
 
     it('Checking the Cart page flow', () => {
-        products.Check_Cart_Page
+        products.Check_Cart_Page()
     })
 
 })
