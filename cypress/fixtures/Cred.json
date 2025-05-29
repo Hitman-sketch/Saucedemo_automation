@@ -1,0 +1,15 @@
+{
+  "Login_Cred" :{
+
+    "Valid_Cred" : {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "Invalid_Cred" : {
+      "username": "problem_user",
+      "password": "admin1234"
+    }
+
+
+  }
+}
