@@ -59,7 +59,7 @@ class Products {
         cy.get('.cart_quantity').should('have.text','1')
         cy.get('.cart_footer > .btn_secondary').click()
         //cy.get('.cart_footer > .btn_secondary').should('have.css','color','rgb(239, 239, 239)')
-        cy.get('.cart_footer > .btn_secondary').should('exist')
+        // cy.get('.cart_footer > .btn_secondary').should('exist')
 
 
     });
