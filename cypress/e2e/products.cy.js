@@ -19,12 +19,23 @@ describe('Products and Cart Flow', () => {
 
     it('Products page', () => {
         products.items()
+    })
+
+    it('Individual Items', () =>{
         products.Individual_items()
-        
     })
 
     it("Add to cart in the products page", () => {
         products.add_to_cart()
+    })
+
+    it('Remove from cart', () => {
+        products.add_to_cart()
+        products.remove_from_cart()
+    })
+
+    it('Checking the Cart page flow', () => {
+        products.Check_Cart_Page()
     })
 
 })
